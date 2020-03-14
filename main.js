@@ -1,5 +1,6 @@
-function first(elem, message) {
+function addMessageToHTML(elem, message) {
     document.querySelector(elem).innerHTML = message;
 }
 
-first('#message','git commit!!!');
+addMessageToHTML('#message', 'git commit!!!');
+addMessageToHTML('#message', 'git commit second HTML!!!');
